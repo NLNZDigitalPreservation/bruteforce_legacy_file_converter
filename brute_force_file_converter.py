@@ -251,13 +251,14 @@ location_of_legacyfileconverter_application = r"E:\\tools\\LegacyFileConverter\\
 
 ### single file
 my_f = r"E:\testSet\x-fmt_261\V1-FL965240"
+my_f = r"c:\files\example.wri"
 try_all_codes(my_f)
 
 
-### all files in a folder
-folder = r"E:\testSet\x-fmt_114"
-for f in [os.path.join(folder, x) for x in os.listdir(folder) if os.path.isfile(os.path.join(folder, x)) ]:
-    print (f)
-    print ()
-    try_all_codes(f)
+# ### all files in a folder
+# folder = r"E:\testSet\x-fmt_114"
+# for f in [os.path.join(folder, x) for x in os.listdir(folder) if os.path.isfile(os.path.join(folder, x)) ]:
+#     print (f)
+#     print ()
+#     try_all_codes(f)
 
